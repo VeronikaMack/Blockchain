@@ -2,11 +2,6 @@
 #include "funkcijos.h"
 std::unordered_map<std::string, std::string> HashMap;
 
-/*kazkuri is situ dvieju funkciju blogai veikia, pirma karta nuskaito txt teisingai, pilna string. ir sukuria hasha
-gale programos jis iraso visa pirma key i viena eilute ir value i kita eilute
-tada vel programos pradzioj skaito faila ir nuskaito pirma zodi kaip key o antra kaip eilute ir tada vel neranda mape to
-pacio string(nors techniskai jis uzrasytas i faila dar vis) taigi blogai skaito = blogai raso. Skaityma reik sutvarkyti, bet kaip
-kad skaitytu iki hasho ir teisingai atskirtu key from value kai ilgas tekstas*/
 void IssaugotDuomenisIFaila(){
     std::ofstream file("data.txt");
     if (file.is_open()) {
