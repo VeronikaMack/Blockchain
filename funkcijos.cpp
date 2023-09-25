@@ -2,6 +2,7 @@
 #include "funkcijos.h"
 std::unordered_map<std::string, std::string> HashMap;
 
+
 void IssaugotDuomenisIFaila(){
     std::ofstream file("data.txt");
     if (file.is_open()) {
@@ -59,11 +60,18 @@ void fpagrindine()
    {
     throw zinute;
    }
-   std::stringstream tekstas;
-   tekstas<<file.rdbuf();
-   string konvtekstas = tekstas.str();
-   replace(konvtekstas.begin(), konvtekstas.end(), '\n', ' ');
-   cout<<hash(konvtekstas)<<endl;
+   string pora1, pora2, hash1, hash2;
+   int count = 0;
+   while(file>>pora1>>pora2)
+   {
+  hash1 = hash(pora1);
+  hash2 = hash(pora2);
+   if(hash1 == hash2)
+   {
+      count++;
+   }
+   }
+   cout<<count<<endl;
    }
    catch(char zin[])
    {
@@ -80,16 +88,8 @@ void fpagrindine()
    
 string hash(string& in)
 {
-    
+
     string input = in;
-    cout<<"size of map: "<<HashMap.size()<<endl;
-    if(HashMap.empty())
-    {
-        cout<<"map empty:"<<endl;
-    }
-    for (const auto& pair : HashMap) {
-        std::cout << "Key: " << pair.first << ", Value: " << pair.second << std::endl;
-    }
     auto tikrinimas = HashMap.find(input);
     if(tikrinimas!=HashMap.end())
     {
@@ -104,6 +104,7 @@ string hash(string& in)
     int size = 64, c;
     std::uniform_int_distribution<int> dist(0, 15);
     std::stringstream temp;
+    
     for(int i =0; i<size; i++)
     {
         c = dist(mt);
@@ -116,6 +117,6 @@ string hash(string& in)
     IssaugotDuomenisIFaila();
     return hashas;
     }
-    
+
 
 }
