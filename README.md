@@ -9,4 +9,7 @@ Maišos funkcijos metu atliekami žingsniai: <br>
    3.4 Hash'as įrašomas į HashMap. (input - key, hash - value).<br>
    3.5 stringstream temp yra išvalomas naujam naudojimui.<br>
    3.6 Kviečiama funkcija, kuri įrašo naujai sukurtą hash'ą į data.txt failą, kuriame laikomi visi input'ai ir jų hash'ai.<br>
-  
+
+<br>
+<strong>Testavimas</strong>
+
