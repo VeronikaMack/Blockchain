@@ -24,7 +24,8 @@ Maišos funkcijos metu atliekami žingsniai: <br>
 4. tuščias failas generuoja hash'ą<br>
 5. tas pats input'as generuoja tą patį hashą<br>
 6.<br>
-<img width="361" alt="image" src="https://github.com/VeronikaMack/Blockchain/assets/117922006/4777c00a-f1c4-42f5-8b93-61112c1d9e0f"><br>
+<img width="396" alt="image" src="https://github.com/VeronikaMack/Blockchain/assets/117922006/dd950a60-3632-459e-b6c7-dd3695eed543">
+<br>
 7. Naudojant 4 failus, kuriuos sudaro 25,000 eilučių 10/100/500/1000 simbolių ilgio porų nebuvo rasta vienodų hash'ų<br>
 <br>
 LAVINOS EFEKTO TESTAVIMAS:<br>
