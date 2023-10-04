@@ -70,4 +70,6 @@ minimalus skirtingumas BIT lygmenyje: 53%<br>
 vidurkinis skirtingumas BIT lygmenyje: 42.6%<br>
 <br>
 
-
+<strong>Išvados:</strong><br>
+Hashavimo funkcijos stiprybės - veikia greitai, yra deterministinė, pagal testavimą atspari kolizijai.<br>
+Hashavimo funkcijos trūkumai - bitų lygmenyje vidurkinis skirtingumas yra mažesnis nei 50%.<br>
