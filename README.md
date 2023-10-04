@@ -1,4 +1,5 @@
 # Blockchain
+<strong>Antroje versijoje buvo pakeista Hash'avimo funkcija, nes pirmoje versijoje ji nebuvo deterministinė</strong>
 Maišos funkcijos metu atliekami žingsniai: <br>
 1. Patikrinama ar gautas input'as jau egzistuoja Hash'ų Map'e. (unordered map)
 2. Jei egzistuoja - gražinamas to input'o hashas.
