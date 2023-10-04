@@ -5,7 +5,7 @@ Maišos funkcijos metu atliekami žingsniai: <br>
 2. Apibrėžiami kiti kintamieji: stringstream hashas - saugo galutinį hash'ą, uint32_t sum - saugo visų input'o simbolių skaitinių reikšmių sumą ir int b)<br>
 3. Vykdomas ciklas, kuris iteruoja per kiekvieną input'o simbolį:<br>
    3.1 Simbolis paverčiamas į jo unicode skaitinę reikšmę.<br>
-   3.2 Gauti skaičiai verčiami į šešioliktainę hex sistemą.<br>
+   3.2 Gautas skaičius paverčiamas į jo bitset<8> reikšmę.<br>
    3.3 64 simbolių hashas iš stringstream paverčiamas į string.<br>
    3.4 Hash'as įrašomas į HashMap. (input - key, hash - value).<br>
    3.5 stringstream temp yra išvalomas naujam naudojimui.<br>
