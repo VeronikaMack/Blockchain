@@ -29,44 +29,44 @@ Maišos funkcijos metu atliekami žingsniai: <br>
 7. Naudojant 4 failus, kuriuos sudaro 25,000 eilučių 10/100/500/1000 simbolių ilgio porų nebuvo rasta vienodų hash'ų<br>
 <br>
 LAVINOS EFEKTO TESTAVIMAS:<br>
-10 simbolių ir 2000 eilučių:<br>
+10 simbolių ir 25000 eilučių:<br>
 <br>
-maksimalus skirtingumas HEX lygmenyje: 78%<br>
+maksimalus skirtingumas HEX lygmenyje: 82%<br>
+minimalus skirtingumas HEX lygmenyje: 100%<br>
+vidurkinis skirtingumas HEX lygmenyje: 93.7%<br>
+<br>
+maksimalus skirtingumas BIT lygmenyje: 33%<br>
+minimalus skirtingumas BIT lygmenyje: 55%<br>
+vidurkinis skirtingumas BIT lygmenyje: 42.65%<br>
+<br>
+100 simbolių ir 25000 eilučių:<br>
+<br>
+maksimalus skirtingumas HEX lygmenyje: 82%<br>
+minimalus skirtingumas HEX lygmenyje: 100%<br>
+vidurkinis skirtingumas HEX lygmenyje: 93.9%<br>
+<br>
+maksimalus skirtingumas BIT lygmenyje: 30%<br>
+minimalus skirtingumas BIT lygmenyje: 53%<br>
+vidurkinis skirtingumas BIT lygmenyje: 42.7%<br>
+<br>
+500 simbolių ir 25000 eilučių:<br>
+<br>
+maksimalus skirtingumas HEX lygmenyje: 81%<br>
+minimalus skirtingumas HEX lygmenyje: 100%<br>
+vidurkinis skirtingumas HEX lygmenyje: 93.7%<br>
+<br>
+maksimalus skirtingumas BIT lygmenyje: 32%<br>
+minimalus skirtingumas BIT lygmenyje: 52%<br>
+vidurkinis skirtingumas BIT lygmenyje: 42.6%<br>
+<br>
+1000 simbolių ir 25000 eilučių:<br>
+<br>
+maksimalus skirtingumas HEX lygmenyje: 82%<br>
 minimalus skirtingumas HEX lygmenyje: 100%<br>
 vidurkinis skirtingumas HEX lygmenyje: 93.8%<br>
 <br>
-maksimalus skirtingumas BIT lygmenyje: 32%<br>
-minimalus skirtingumas BIT lygmenyje: 52%<br>
-vidurkinis skirtingumas BIT lygmenyje: 42.5%<br>
-<br>
-100 simbolių ir 2000 eilučių:<br>
-<br>
-maksimalus skirtingumas HEX lygmenyje: 81%<br>
-minimalus skirtingumas HEX lygmenyje: 100%<br>
-vidurkinis skirtingumas HEX lygmenyje: 93.7%<br>
-<br>
-maksimalus skirtingumas BIT lygmenyje: 32%<br>
-minimalus skirtingumas BIT lygmenyje: 56%<br>
-vidurkinis skirtingumas BIT lygmenyje: 42.6%<br>
-<br>
-500 simbolių ir 2000 eilučių:<br>
-<br>
-maksimalus skirtingumas HEX lygmenyje: 81%<br>
-minimalus skirtingumas HEX lygmenyje: 100%<br>
-vidurkinis skirtingumas HEX lygmenyje: 93.6%<br>
-<br>
-maksimalus skirtingumas BIT lygmenyje: 31%<br>
-minimalus skirtingumas BIT lygmenyje: 54%<br>
-vidurkinis skirtingumas BIT lygmenyje: 42.5%<br>
-<br>
-1000 simbolių ir 2000 eilučių:<br>
-<br>
-maksimalus skirtingumas HEX lygmenyje: 79%<br>
-minimalus skirtingumas HEX lygmenyje: 100%<br>
-vidurkinis skirtingumas HEX lygmenyje: 93.7%<br>
-<br>
-maksimalus skirtingumas BIT lygmenyje: 32%<br>
-minimalus skirtingumas BIT lygmenyje: 52%<br>
+maksimalus skirtingumas BIT lygmenyje: 33%<br>
+minimalus skirtingumas BIT lygmenyje: 53%<br>
 vidurkinis skirtingumas BIT lygmenyje: 42.6%<br>
 <br>
 
