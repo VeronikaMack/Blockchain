@@ -10,6 +10,8 @@ Maišos funkcijos metu atliekami žingsniai: <br>
    3.4 Gauta bit reikšmė paverčiama į savo int tipo reikšmę.<br>
    3.5 Skaičiuojama visų simbolių skaitinių reikšmių suma:<br>
        3.5.1 Turima suma padauginama iš 32 naudojant left-shift operatorių, tuomet prie jos pridedama dabartinė suma ir pridedama dabartinio simbolio skaitinė reikšmė.<br>
+4. Vykdomas ciklas, kuris manipuliuoja gautą sumą 64 kartus:<br>
+   4.1 
 
 <br>
 <strong>Testavimas</strong><br>
