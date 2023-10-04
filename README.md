@@ -11,7 +11,7 @@ Maišos funkcijos metu atliekami žingsniai: <br>
    3.5 Skaičiuojama visų simbolių skaitinių reikšmių suma:<br>
        3.5.1 Turima suma padauginama iš 32 naudojant left-shift operatorių, tuomet prie jos pridedama dabartinė suma ir pridedama dabartinio simbolio skaitinė reikšmė.<br>
 4. Vykdomas ciklas, kuris manipuliuoja gautą sumą 64 kartus:<br>
-   4.1 
+   4.1 Suma padauginama iš 37, padauginama iš 7, prie sumos pridedama 7895, suma padalinama iš 11 ir suma padalinama iš 10. <br>
 
 <br>
 <strong>Testavimas</strong><br>
