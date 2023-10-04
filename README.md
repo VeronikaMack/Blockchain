@@ -7,7 +7,7 @@ Maišos funkcijos metu atliekami žingsniai: <br>
    3.1 Simbolis paverčiamas į jo unicode skaitinę reikšmę.<br>
    3.2 Gautas skaičius paverčiamas į jo bitset<8> reikšmę.<br>
    3.3 Gauta bit reikšmė perduodama į funkciją Bitai2, kuri gražina apverstą bit reikšmę.<br>
-   3.4 Hash'as įrašomas į HashMap. (input - key, hash - value).<br>
+   3.4 Gauta bit reikšmė paverčiama į savo int tipo reikšmę.<br>
    3.5 stringstream temp yra išvalomas naujam naudojimui.<br>
    3.6 Kviečiama funkcija, kuri įrašo naujai sukurtą hash'ą į data.txt failą, kuriame laikomi visi input'ai ir jų hash'ai.<br>
 
