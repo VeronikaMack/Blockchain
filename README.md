@@ -4,7 +4,7 @@ Maišos funkcijos metu atliekami žingsniai: <br>
 1. Sukuriamas char tipo masyvas, kuriame saugomos reikšmės nuo 0 iki f atitinkančios šešioliktainio skaičiaus simbolius.<br>
 2. Apibrėžiami kiti kintamieji: stringstream hashas - saugo galutinį hash'ą, uint32_t sum - saugo visų input'o simbolių skaitinių reikšmių sumą ir int b)<br>
 3. Vykdomas ciklas, kuris iteruoja per kiekvieną input'o simbolį:<br>
-   3.1 Paleidžiamas for ciklas, kurio metu generuojami 64 skaičiai nuo 0 iki 15.<br>
+   3.1 Simbolis paverčiamas į jo unicode skaitinę reikšmę.<br>
    3.2 Gauti skaičiai verčiami į šešioliktainę hex sistemą.<br>
    3.3 64 simbolių hashas iš stringstream paverčiamas į string.<br>
    3.4 Hash'as įrašomas į HashMap. (input - key, hash - value).<br>
