@@ -2,7 +2,7 @@
 <strong>Antroje versijoje buvo pakeista maišos funkcija, nes pirmoje versijoje ji nebuvo deterministinė</strong><br>
 Maišos funkcijos metu atliekami žingsniai: <br>
 1. Sukuriamas char tipo masyvas, kuriame saugomos reikšmės nuo 0 iki f atitinkančios šešioliktainio skaičiaus simbolius.<br>
-2. Jei egzistuoja - gražinamas to input'o hashas.
+2. Apibrėžiami kiti kintamieji: stringstream hashas - saugo galutinį hash'ą, uint32_t sum - saugo visų input'o simbolių skaitinių reikšmių sumą ir int b)<br>
 3. Jei neegzistuoja - kuriamias hashas.<br>
    3.1 Paleidžiamas for ciklas, kurio metu generuojami 64 skaičiai nuo 0 iki 15.<br>
    3.2 Gauti skaičiai verčiami į šešioliktainę hex sistemą.<br>
