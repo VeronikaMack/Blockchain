@@ -1,7 +1,7 @@
 # Blockchain
-<strong>Antroje versijoje buvo pakeista Hash'avimo funkcija, nes pirmoje versijoje ji nebuvo deterministinė</strong>
+<strong>Antroje versijoje buvo pakeista maišos funkcija, nes pirmoje versijoje ji nebuvo deterministinė</strong><br>
 Maišos funkcijos metu atliekami žingsniai: <br>
-1. Patikrinama ar gautas input'as jau egzistuoja Hash'ų Map'e. (unordered map)
+1. Sukuriamas char tipo masyvas, kuriame saugomos reikšmės nuo 0 iki f atitinkančios šešioliktainio skaičiaus simbolius.<br>
 2. Jei egzistuoja - gražinamas to input'o hashas.
 3. Jei neegzistuoja - kuriamias hashas.<br>
    3.1 Paleidžiamas for ciklas, kurio metu generuojami 64 skaičiai nuo 0 iki 15.<br>
